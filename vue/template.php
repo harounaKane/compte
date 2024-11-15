@@ -10,6 +10,7 @@
 <body>
 
     <header class="bg-secondary p-4 mb-3">
+        <h1>Gestion compte</h1>
         <?php if( isset($_SESSION['user']) ): ?>
             <?php if( unserialize($_SESSION['user'])->getRole() == "GERANT" ): ?>
                 <!-- GERANT -->
@@ -28,7 +29,7 @@
     <main class="container-fluid">
         <?= $contenu ?? ''; ?>
     </main>
-    
+
     <footer class="bg-secondary p-4 text-center text-light mt-4">
         &copy; - IPSSI - 2024
     </footer>
