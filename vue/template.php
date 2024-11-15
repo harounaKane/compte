@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
-    <title>Compte bancaire</title>
+    <title>Bank Account</title>
 </head>
 <body>
 
     <header class="bg-secondary p-4 mb-3">
-        <h1 class="text-center"><div>My Account</div></h1>
+        <h1 class="text-center"><strong>My Account</strong></h1>
         <a href="?action=client" class="btn btn-success">Gestion Transactions</a>
         <a href="?action=client" class="btn btn-success">Accueil</a>
         <?php if( isset($_SESSION['user']) ): ?>
