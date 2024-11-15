@@ -10,7 +10,7 @@
 <body>
 
     <header class="bg-secondary p-4 mb-3">
-        <h1 class="text-center">Gestion compte</h1>
+        <h1 class="text-center"><strong>My Account</strong></h1>
         <a href="?action=client" class="btn btn-success">Gestion Transactions</a>
         <a href="?action=client" class="btn btn-success">Accueil</a>
         <?php if( isset($_SESSION['user']) ): ?>
